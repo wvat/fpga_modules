@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Dec 29 16:01:45 2017
+# Process ID: 9759
+# Log file: /home/fred/Projects/fpga_projects/vga_controller/planAhead_run_3/planAhead.log
+# Journal file: /home/fred/Projects/fpga_projects/vga_controller/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/fred/Projects/fpga_projects/vga_controller/pa.fromNetlist.tcl
+startgroup
+set_property package_pin F12 [get_ports {anode_sel[3]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {anode_sel[2]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {anode_sel[1]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {anode_sel[0]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {segments_out[7]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {segments_out[6]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {segments_out[5]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {segments_out[4]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {segments_out[3]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {segments_out[2]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {segments_out[1]}]
+endgroup
+startgroup
+set_property package_pin N13 [get_ports {segments_out[0]}]
+endgroup
+save_constraints

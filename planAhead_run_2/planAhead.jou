@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Tue Nov 28 22:44:36 2017
+# Process ID: 26591
+# Log file: /home/fred/Projects/fpga_projects/vga_controller/planAhead_run_2/planAhead.log
+# Journal file: /home/fred/Projects/fpga_projects/vga_controller/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/fred/Projects/fpga_projects/vga_controller/pa.fromNetlist.tcl
+startgroup
+set_property package_pin F13 [get_ports {color_out[7]}]
+endgroup
+startgroup
+set_property package_pin D13 [get_ports {color_out[6]}]
+endgroup
+set_property package_pin "" [get_ports [list  {color_out[5]}]]
+startgroup
+set_property package_pin C14 [get_ports {color_out[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {color_out[2]}]]
+set_property package_pin "" [get_ports [list  {color_out[1]}]]
+set_property package_pin "" [get_ports [list  {color_out[0]}]]
+startgroup
+set_property package_pin C14 [get_ports {color_out[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {color_out[3]}]]
+startgroup
+set_property package_pin G14 [get_ports {color_out[4]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {color_out[3]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {color_out[2]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {color_out[1]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {color_out[0]}]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports {sw[7]}]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports {sw[6]}]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports {sw[4]}]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports {sw[5]}]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports {sw[4]}]
+endgroup
+set_property package_pin "" [get_ports [list  {sw[3]}]]
+startgroup
+set_property package_pin G3 [get_ports {sw[4]}]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports {sw[3]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {sw[2]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {sw[1]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {sw[0]}]
+endgroup
+save_constraints

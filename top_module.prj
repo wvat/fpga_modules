@@ -1,0 +1,3 @@
+verilog work "vga_controller.v"
+verilog work "seven_seg.v"
+verilog work "top_module.v"

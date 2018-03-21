@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Nov 27 20:29:17 2017
+# Process ID: 30933
+# Log file: /home/fred/Projects/fpga_projects/vga_controller/planAhead_run_1/planAhead.log
+# Journal file: /home/fred/Projects/fpga_projects/vga_controller/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/fred/Projects/fpga_projects/vga_controller/pa.fromNetlist.tcl
+startgroup
+set_property package_pin N3 [get_ports {color_in[2]}]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports {color_in[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {color_in[0]}]]
+startgroup
+set_property package_pin K3 [get_ports {color_in[2]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {color_in[1]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {color_in[0]}]
+endgroup
+startgroup
+set_property package_pin C14 [get_ports {color_out[2]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {color_out[1]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {color_out[0]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports h_sync]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports nrst]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports v_sync]
+endgroup
+save_constraints
